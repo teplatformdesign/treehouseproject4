@@ -1,0 +1,32 @@
+// Colors 
+
+$color-default: #51ddfc;
+$color-success: #63cc82;
+$color-error: red; // original - #e4757a
+$color-warning: orange; // original - #fd7856
+$color-info: #927bc1;
+$color-link: #51ddfc;
+
+$color-default-hover: lighten(#51ddfc, 15%);
+$color-success-hover: darken(#63cc82, 15%);
+
+$color-theme-3: #deb2ee;
+$color-theme-4: #7ee6fd;
+
+$hov-color-nav-link: #fff;
+$hov-backcolor-nav-link: lighten(#58e1c1, 20%);
+
+
+// Font stacks
+$stack-lato: 'Lato', sans-serif;
+
+
+
+// Media query breakpoints
+
+$brk-wide: '(min-width: 768px)';
+
+// Borders
+
+$input-border: 5px solid #58e1c1;
+$image-frame: 1px solid #ccc;

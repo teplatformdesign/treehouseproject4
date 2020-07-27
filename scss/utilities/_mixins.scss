@@ -1,0 +1,12 @@
+
+
+// Image
+
+@mixin img ($display, $l-margin, $r-margin, $t-margin: null, $width: null, $height: null){
+ display: $display;
+ margin-left: $l-margin;
+ margin-right: $r-margin;
+ margin-top: $t-margin;
+ max-width: $width;
+ max-height: $height;
+}
