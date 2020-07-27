@@ -3,7 +3,7 @@
 /* ============================================= */
 
 .img-avatar {
-  @include img (block, auto, auto, 10px, 100%, 100%)
+  @include img (block, auto, auto, 10px, 100%, 100%);
 
     &:hover {
       transform: scale(1.15);
@@ -12,11 +12,11 @@
 }
 
 .img-frame {
-  @include img (block, auto, auto, 10px, 100%)
+  @include img (block, auto, auto, 10px, 100%);
   padding: 13px;
   border: $image-frame;
 }
 
 .img-logo {
-  @include img (block, auto, auto)
+  @include img (block, auto, auto);
 }
