@@ -9,6 +9,9 @@ $color-link: #51ddfc;
 
 $color-default-hover: lighten(#51ddfc, 15%);
 $color-success-hover: darken(#63cc82, 15%);
+$color-error-hover: lighten(red, 25%);
+$color-warning-hover: darken(orange, 10%);
+$color-info-hover: lighten(#927bc1, 10%);
 
 $color-theme-3: #deb2ee;
 $color-theme-4: #7ee6fd;

@@ -23,10 +23,18 @@
 
 .error {
   background-color: $color-error;
+
+  &:hover {
+  background-color: $color-error-hover;
+  }
 }
 
 .info {
   background-color: $color-info;
+
+    &:hover {
+  background-color: $color-info-hover;
+  }
 }
 
 .success {
@@ -41,4 +49,8 @@
 
 .warning {
   background-color: $color-warning;
+
+    &:hover {
+  background-color: $color-warning-hover;
+  }
 }

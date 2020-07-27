@@ -4,6 +4,11 @@
 
 .img-avatar {
   @include img (block, auto, auto, 10px, 100%, 100%)
+
+    &:hover {
+      transform: scale(1.15);
+      transition: transform .3s;
+    }
 }
 
 .img-frame {

@@ -415,21 +415,30 @@ a {
 /* line 24, ../../Documents/GitHub/treehouseproject4/scss/components/_buttons.scss */
 .error {
   background-color: red; }
-
-/* line 28, ../../Documents/GitHub/treehouseproject4/scss/components/_buttons.scss */
-.info {
-  background-color: #927bc1; }
+  /* line 27, ../../Documents/GitHub/treehouseproject4/scss/components/_buttons.scss */
+  .error:hover {
+    background-color: #ff8080; }
 
 /* line 32, ../../Documents/GitHub/treehouseproject4/scss/components/_buttons.scss */
+.info {
+  background-color: #927bc1; }
+  /* line 35, ../../Documents/GitHub/treehouseproject4/scss/components/_buttons.scss */
+  .info:hover {
+    background-color: #af9ed1; }
+
+/* line 40, ../../Documents/GitHub/treehouseproject4/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82; }
-  /* line 35, ../../Documents/GitHub/treehouseproject4/scss/components/_buttons.scss */
+  /* line 43, ../../Documents/GitHub/treehouseproject4/scss/components/_buttons.scss */
   .success:hover {
     background-color: #38ab5a; }
 
-/* line 42, ../../Documents/GitHub/treehouseproject4/scss/components/_buttons.scss */
+/* line 50, ../../Documents/GitHub/treehouseproject4/scss/components/_buttons.scss */
 .warning {
   background-color: orange; }
+  /* line 53, ../../Documents/GitHub/treehouseproject4/scss/components/_buttons.scss */
+  .warning:hover {
+    background-color: #cc8400; }
 
 /* ============================================= */
 /*              Forms                            */
@@ -490,8 +499,12 @@ a {
   margin-top: 10px;
   max-width: 100%;
   max-height: 100%; }
+  /* line 8, ../../Documents/GitHub/treehouseproject4/scss/components/_images.scss */
+  .img-avatar:hover {
+    transform: scale(1.15);
+    transition: transform .3s; }
 
-/* line 9, ../../Documents/GitHub/treehouseproject4/scss/components/_images.scss */
+/* line 14, ../../Documents/GitHub/treehouseproject4/scss/components/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -501,7 +514,7 @@ a {
   padding: 13px;
   border: 1px solid #ccc; }
 
-/* line 15, ../../Documents/GitHub/treehouseproject4/scss/components/_images.scss */
+/* line 20, ../../Documents/GitHub/treehouseproject4/scss/components/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;
